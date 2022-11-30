@@ -10,6 +10,7 @@ body
     justify-content: center;
     align-content: center;
     font-family: 'Roboto Condensed', sans-serif;
+    
 }
 .contanier
 {
@@ -55,7 +56,7 @@ body
 }
 .header h2
 {
-    color:darkorange;
+    color:rgb(255, 255, 255);
     font-size: 3rem;
     font-weight: bold;
 }
@@ -68,6 +69,7 @@ input
     background: transparent;
     border-bottom: 0.5px solid rgb(229, 235, 149);
     font-size: 18px;
+    color: aliceblue;
 }
 input:focus
 {
@@ -75,7 +77,7 @@ input:focus
 }
 input::placeholder
 {
-    color: rgb(74, 61, 88);
+    color: rgb(255, 255, 255);
     font-size: 18px;
 }
 button
@@ -85,7 +87,7 @@ button
     margin-top: 50px;
     border-radius: 33px;
     cursor: pointer;
-    background-color: cornflowerblue;
+    background-color: rgb(20, 101, 250);
     font-weight: bold;
     font-size: 18px;
     color: whitesmoke;
